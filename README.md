@@ -40,8 +40,8 @@ clock.exe
 ## File Structure
 - `clock.asm`: Main source code.
 - `README.md`: This documentation file.
-- `template.asm`: A basic 16-bit DOS EXE template to use as a starting point for new assembly programs.
 - `timehook.md`: A detailed technical reference guide used during development, explaining the INT 1Ch timer interrupt hook mechanism.
 
 ## Further Reading
 For a deep dive into the interrupt hooking mechanism used in this project, specifically how **INT 1Ch** is intercepted safely in Real Mode, please refer to [timehook.md](timehook.md).
+
